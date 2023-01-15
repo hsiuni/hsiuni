@@ -11,6 +11,8 @@
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    background: green;
+    position: relative;
 }
 
 
@@ -34,9 +36,13 @@
     background: rgb(235, 232, 91);
     position: absolute;
     z-index:2;
+    top: 20px;
+    left: 20px;
 }
 
 .fixed {
     background: rgb(43, 99, 221);
     position: fixed;
+    top: 40px;
+    left: 20px;
 }
