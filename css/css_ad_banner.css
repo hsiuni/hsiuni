@@ -58,3 +58,16 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.411);
 }
+.close{
+    font-size: 40px;
+    font-weight: 800;
+    background: #858686;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    right: -30px;
+    top: -30px;
+    border-radius: 60px;
+}
