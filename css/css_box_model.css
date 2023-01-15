@@ -1,22 +1,22 @@
-div{
+.box {
     width: 100px;
     height: 100px;
     line-height: 80px;
-    background-color: rgb(43, 83, 226);
+    background-color: blueviolet;
     text-align: center;
-    /* text-align: left;
-    text-align: right;
-    text-align: justify; */
     margin: auto;
     border: 2px solid rgb(43, 221, 227);
     padding: 10px;
-    padding: 10px;
     box-sizing: border-box;
     word-break: break-all;
-    color: rgb(228, 255, 234);
-    font-size: 35px;
+    color:rgb(228, 255, 234);
+    font-size: 50px;
     font-weight: 400;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-family: 'Noto Sans SignWriting', sans-serif;
-    font-family: 'Rowdies', cursive;;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+.box2 {
+    width:100px;
+    height: 100px;
+    box-sizing: border-box;
 }
