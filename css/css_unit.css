@@ -6,9 +6,9 @@
     box-sizing: border-box;
 }
 body {
-    font-size: 30px;
+    font-size: 50px;
 }
-em{
+.em {
     font-size: 2em;
 }
 .rem {
