@@ -52,7 +52,21 @@
     align-content: flex-start;
     align-content: flex-end;
     align-content: center;
-    align-content: space-around;
+    /* align-content: space-around;
     align-content: space-between;
-    align-content: space-evenly;
+    align-content: space-evenly; */
+}
+
+.aligan-items{
+    align-items: stretch;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;
+}
+
+.jic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
