@@ -11,7 +11,7 @@
 }
 .flex {
     display: flex;
-    background: yellow;
+    background: rgb(134, 202, 211);
     width: 90%;
     margin: 20px auto;
     height: 300px;
@@ -20,7 +20,7 @@
 .flex-item {
     width: 100px;
     height: 100px;
-    background: #000;
+    background: #f09e07;
     color: #fff;
     margin: 0 10px;
 }
@@ -45,4 +45,14 @@
     justify-content: space-around;
     justify-content: space-between;
     justify-content: space-evenly;
+}
+
+.aligan-content{
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly;
 }
