@@ -7,7 +7,7 @@
             "savePath": "/dist/css",
             "savePathReplacementPairs": null
         }
-    ]
+    ],
     "liveServer.settings.root": "/dist",
     "liveServer.settings.CustomBrowser": "chrome"
 }
