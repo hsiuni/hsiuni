@@ -10,12 +10,29 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition-property: all;
     transition-property: background;
     transition-duration: 2s;
-    transition-delay: 1s;
+    // transition-delay: 1s;
+    transition-timing-function: ease;
+    left: 0;
 
     &:hover {
         background: #d3291d;
         font-size: 30px;
+        width: 1000px;
+        left: 50%;
+    }
+}
+
+.funt-block {
+    margin-top: 20px;
+
+    >label {
+        padding: 10px 20px;
+        background-color: #dedede;
+        font-weight: 800;
+        border-radius: 5px;
+        cursor: pointer;
     }
 }
