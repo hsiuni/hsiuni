@@ -13,32 +13,48 @@
     <div class="container">
         <div class="block">
             <h3 class="title">學生成績表</h3>
+            <div class="fn">
+                <button class="btn danger" id="print-btn">列印</button>
+            </div>
+            <table class="student-table">
+                <thead>
+                    <tr>姓名</tr>
+                    <tr>成績</tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>David Lin</td>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <td>Johb Chen</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Helen Peng</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Mary Wang</td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <td>Tom Lin</td>
+                        <td>99</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        <table class="student-table">
-            <thead>
-                <tr>姓名</tr>
-                <tr>成績</tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>david</td>
-                    <td>80</td>
-                </tr>
-                <tr>
-                    <td>Amy</td>
-                    <td>60</td>
-                </tr>
-                <tr>
-                    <td>Len</td>
-                    <td>70</td>
-                </tr>
-                <tr>
-                    <td>Tom</td>
-                    <td>65</td>
-                </tr>
-            </tbody>
-        </table>
     </div>
 </body>
+
+<script>
+    let btn = document.querySelector('#print-btn');
+    if (btn) {
+        btn.addEventListener('click', () => {
+            window.print();
+        })
+    }
+</script>
 
 </html>

@@ -135,5 +135,44 @@ a {
 .student-table {
   width: 100%;
   border-collapse: collapse;
-  border-spacing: 0;
+}
+.student-table th,
+.student-table td {
+  border: 1px solid #dedede;
+  padding: 10px;
+}
+.student-table th {
+  background: #dedede;
+}
+.student-table tr td:last-child {
+  text-align: right;
+}
+.student-table tr:nth-child(even) {
+  background-color: #0d64aa;
+  color: #fff;
+}
+
+.fn {
+  margin: 10px auto;
+  text-align: right;
+}
+
+.bth {
+  padding: 10px 20px;
+  border: 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+.bth.danger {
+  background: #ff2c2c;
+  color: #fff;
+}
+.bth.danger.hover {
+  background: #8a1818;
+}
+
+@media print {
+  .fn {
+    display: none;
+  }
 }/*# sourceMappingURL=raw_print.css.map */
