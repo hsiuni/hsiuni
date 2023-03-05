@@ -126,22 +126,14 @@ a {
   display: inline-block;
 }
 
-.wrap {
-  margin-top: 20px;
+.title {
+  text-align: center;
+  font-size: 40px;
+  margin: 15px auto;
 }
 
-.rotate {
-  width: 100px;
-  height: 100px;
-  background: red;
-  transform: rotate(45deg);
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.rotate .rotate-text {
-  font-size: 40px;
-  font-weight: 800;
-  transform: rotate(135deg);
-}/*# sourceMappingURL=transform.css.map */
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}/*# sourceMappingURL=raw_print.css.map */

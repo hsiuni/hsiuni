@@ -126,22 +126,21 @@ a {
   display: inline-block;
 }
 
-.wrap {
+.block {
+  background: yellow;
+  padding: 20px;
+  text-align: center;
   margin-top: 20px;
 }
 
-.rotate {
-  width: 100px;
-  height: 100px;
-  background: red;
-  transform: rotate(45deg);
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media screen and (max-width: 800px) {
+  .block {
+    background: blue;
+    color: #fff;
+  }
 }
-.rotate .rotate-text {
-  font-size: 40px;
-  font-weight: 800;
-  transform: rotate(135deg);
-}/*# sourceMappingURL=transform.css.map */
+@media screen and (max-width: 600px) {
+  .block {
+    background: red;
+  }
+}/*# sourceMappingURL=rwd_width.css.map */

@@ -56,6 +56,9 @@ a {
 .form-control:focus::-moz-placeholder {
   color: rgb(204, 204, 204);
 }
+.form-control:focus:-ms-input-placeholder {
+  color: rgb(204, 204, 204);
+}
 .form-control:focus::placeholder {
   color: rgb(204, 204, 204);
 }
@@ -134,9 +137,20 @@ a {
   cursor: pointer;
 }
 .block.active {
-  animation-name: move;
-  animation-duration: 3s;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
   transform: translate(80%);
+}
+
+@-webkit-keyframes move {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(80%);
+  }
 }
 
 @keyframes move {
