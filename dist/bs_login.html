@@ -12,7 +12,7 @@
             display: none;
         }
 
-        #login-form input[type-checkbox] {
+        #login-form input[type=checkbox] {
             display: none;
         }
 
@@ -34,18 +34,21 @@
             <input type="checkbox" id="fail-switch">
             <div class="alert alert-success">Login Success</div>
             <div class="alert alert-danger">Login Fail</div>
-        </div>
-        <div>
-            <label for="Account"></label>
-            <input type="text">
-        </div>
-        <div>
-            <label for="Password"></label>
-            <input type="password">
-        </div>
-        <div>
-            <label for="Success-switch" class="btn btn-primary">Login Success</label>
-            <label for="fail-switch" class="btn btn-danger">Login Fail</label>
+            <div>
+                <label for="Account" class="form-lable">Account</label>
+                <input type="text" class="form-control" id="account" name="account" placeholder="account">
+            </div>
+            <div>
+                <label for="Password" class="form-lable">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="password">
+            </div>
+            <div>
+                <div>
+                    <button class="btn btn info" type="button">Sone</button>
+                </div>
+                <label for="success-switch" class="btn btn-primary">Login Success</label>
+                <label for="fail-switch" class="btn btn-danger">Login Fail</label>
+            </div>
         </div>
     </div>
 </body>
