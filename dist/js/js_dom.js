@@ -40,6 +40,10 @@ const login = function () {
 
 uid.style.backgroundColor = 'red';
 
+console.log(uid.classList)
+
+uid.style.backgroundColor = 'red';
+
 console.log(uid.classList);
 
 // uid.classList.add('secondary');
@@ -63,4 +67,3 @@ if (uid.classList.contains('main')) {
 }
 
 myContains(uid, 'main');
-
