@@ -1,6 +1,6 @@
-let uid = document.querySelectorAll('#uid');
+let uid = document.querySelector('#uid');
 
-let students = document.querySelectorAll('.student');
+let students = document.querySelector('.student');
 
 console.log('------ uid ------')
 console.log(uid);
@@ -25,7 +25,7 @@ m_students.forEach(s => {
 })
 
 if (uid) {
-    uid.innerHTML = 'New UID'
+    uid.innerHTML = 'New UID';
 }
 
 const login = function () {
@@ -36,3 +36,28 @@ const login = function () {
 
     acc.value = 'fffff';
 }
+
+uid.style.backgroundColor = 'red';
+
+console.log(uid.classList);
+
+// uid.classList.add('secondary');
+// uid.classList.remove('main');
+
+const myContains = function (dom, className) {
+    let cname = uid.className;
+    let cnameArr = cname.split(' ');
+
+    cnameArr.forEach(n => {
+        if (n == 'className') {
+            console.log(`${className} in uid element.  use funtion`);
+        }
+    })
+}
+
+if (uid.classList.contains('main')) {
+    console.log('main in uid element.use contains');
+}
+
+myContains(uid, 'main');
+
