@@ -19,6 +19,7 @@
 .calc-row {
     display: flex;
     align-items: center;
+    user-select: none;
 
     >div {
         flex: 2;

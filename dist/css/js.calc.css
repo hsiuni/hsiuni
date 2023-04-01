@@ -141,6 +141,9 @@ a {
 .calc-row {
   display: flex;
   align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .calc-row > div {
   flex: 2;
