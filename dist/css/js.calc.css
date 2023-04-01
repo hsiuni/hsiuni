@@ -121,4 +121,45 @@ a {
 .form-control-item .form-control-append .button {
   height: 100%;
   display: inline-block;
-}/*# sourceMappingURL=mobile.css.map */
+}
+
+.calc {
+  margin-top: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#calc-total {
+  line-height: 80px;
+  background: #7e1a1a;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.calc-row {
+  display: flex;
+  align-items: center;
+}
+.calc-row > div {
+  flex: 2;
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dedede;
+  height: 60px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+}
+.calc-row > div:hover {
+  background: #e54f4f;
+  color: #fff;
+}
+.calc-row > div:last-child {
+  flex: 1;
+}/*# sourceMappingURL=js.calc.css.map */
